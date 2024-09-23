@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
 
     void Update()
     {
-         if(score < scoreCounter.score)
+         if(scoreCounter != null && score < scoreCounter.score)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
