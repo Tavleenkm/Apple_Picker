@@ -13,6 +13,7 @@ public class Basket : MonoBehaviour
         // Find a GameObject named ScoreCounter in the Scene Hierarchy
         GameObject scoreGO = GameObject.Find("ScoreCounter");  // b
         // Get the ScoreCounter (Script) component of scoreGO
+        //ScoreCOunter through get;
         scoreCounter = scoreGO.GetComponent<ScoreCounter>();  // c
     }
 
